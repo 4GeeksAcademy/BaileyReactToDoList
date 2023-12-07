@@ -19,9 +19,7 @@ const Form = ({setInputText, todos, setTodos, inputText}) => {
     return (
         <form>
             <input placeholder="What needs to be done?" value={inputText} onChange={inputTextHandler} type="text" className="todo-input" />
-            <button onClick={submitTodoHandler} className="todo-button"></button>
-                
-            
+            <button onClick={submitTodoHandler} className="todo-button"></button>                  
         </form>
     )
 };

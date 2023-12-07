@@ -16,9 +16,3 @@ const Count = ({setInputText, todos, setTodos, inputText}) => {
 };
 
 export default Count
-// / const Count = ({text, todo, todos, setTodos}) => {
-    //     return
-    
-    //  ? add from <Form inputText={inputText} todos={todos} setTodos={setTodos} setInputText={setInputText} />
-    // delete from deleteHandler is in Todo.jsx
-    // }
